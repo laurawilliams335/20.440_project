@@ -7,7 +7,7 @@ Data
 Mesenteric lymph nodes were harvested from 15-day-old RorcE+7kbWT/WT mice and sorted for CD45+CD3−B220−CD11c+MHC-II+ DCs and CD45+CD3−B220−CD11c−CCR6+ ILC3s. Samples were pooled and sequenced using a 10x Genomics Chromium Single Cell Controller.
 
 Organization
-The code needed to produce figures 4 and 5 from our report is contained in Figure4-5.R, and all the data needed is in matrix.mtx.gz, barcodes.tsv.gz, and features.tsv.gz. 
+The code needed to produce figures 4 and 5 from our report is contained in the folder 'code' in the file Figure4-5.R, and all the data needed is in matrix.mtx.gz, barcodes.tsv.gz, and features.tsv.gz in the folder 'data'. 
 
 Running the code
 Download R and Rstudio to run the code. All of the necessary packages will be installed via running the Figure4-5.R script. 
