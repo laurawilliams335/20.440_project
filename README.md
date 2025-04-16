@@ -1,17 +1,22 @@
 Overview
+
 This repository contains the data and code needed to produce Figures 4 and 5 from the first draft of our report. The matrix.mtx.gz, features.tsv.gz, and barcodes.tsv.gz were 
 downloaded from GEO Accession GSE289268, which contains the single cell sequencing data from Rodrigues et al. (Cell, 2025). Using this datset, we ran principal component analysis 
 on the single cell sequencing data and clustered the cells to generate a UMAP plot. We then identified genes upregulated in each of the clusters and, focusing on cluster 6 (Roryt+ APCs), and ran gene ontology enrichment analysis to produce a dot plot of upregulated pathways in this cluster. 
 
 Data
+
 Mesenteric lymph nodes were harvested from 15-day-old RorcE+7kbWT/WT mice and sorted for CD45+CD3−B220−CD11c+MHC-II+ DCs and CD45+CD3−B220−CD11c−CCR6+ ILC3s. Samples were pooled and sequenced using a 10x Genomics Chromium Single Cell Controller.
 
 Organization
+
 The code needed to produce figures 4 and 5 from our report is contained in the folder 'code' in the file Figure4-5.R, and all the data needed is in matrix.mtx.gz, barcodes.tsv.gz, and features.tsv.gz in the folder 'data'. 
 
 Running the code
+
 Download R and Rstudio to run the code. All of the necessary packages will be installed via running the Figure4-5.R script. 
 
 Reference for dataset source:
+
 Rodrigues, M. E., Moreira, T. G., Canesso, M. C. C., et al. (2025). Rorγt-positive dendritic cells are required for the induction of peripheral regulatory T cells in response to oral 
 antigens. Cell. Advance online publication. https://doi.org/10.1016/j.cell.2025.03.020
