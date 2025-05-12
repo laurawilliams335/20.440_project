@@ -4,10 +4,9 @@ This repository contains the data and code needed to produce all figures from ou
 The file fig4.rds was downloaded from GEO Accession GSE281286, and contains the single cell sequencing data from Figure 4 of Canesso et al. (Science, 2024).
 The matrix.mtx.gz, features.tsv.gz, and barcodes.tsv.gz were downloaded from GEO Accession GSE289268, which contains the single cell sequencing data from Rodrigues et al. (Cell, 2025). 
 
-Using this datset, we ran principal component analysis 
-on the single cell sequencing data and clustered the cells to generate a UMAP plot. We then identified genes upregulated in each of the clusters and, focusing on cluster 6 (Roryt+ APCs), and ran gene ontology enrichment analysis to produce a dot plot of upregulated pathways in this cluster. 
 
 Data
+
 Canesso et al.: Dendritic cells were isolated from the duodenum gLN of 3-4 CD40G5/G5 male mice (8-12 weeks old). The DCs were index sorted as Aqua-CD45.2+CD45.1-Lin-(TCRb-B220-CD64-)CD11chiMHC-IIint/hi Biotin- or Biotin+. Following their modified Smart-seq2 protocols, RNA was extracted from the single cells to generate tagmented and barcoded cDNA using Nextera XT kits, which was sequenced using Illumina NextSeq 500. The DCs from the helminth-infected and uninfected mice were isolated from the duodenal lamina propria, co-stained with hashtag oligonucleotide labeled CD45 and MHC-I antibodies, and sorted as described above. 
 
 Rodrigues et al.: Mesenteric lymph nodes were harvested from 15-day-old RorcE+7kbWT/WT mice and sorted for CD45+CD3−B220−CD11c+MHC-II+ DCs and CD45+CD3−B220−CD11c−CCR6+ ILC3s. Samples were pooled and sequenced using a 10x Genomics Chromium Single Cell Controller.
